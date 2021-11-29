@@ -1,0 +1,1588 @@
+{
+  "id": "0a310ff7-1b09-4178-87c0-c9a51a60b3b2",
+  "version": "2.0",
+  "name": "Swagger Food Ordering System",
+  "url": "http://localhost:8100/swagger-ui.html#/",
+  "tests": [{
+    "id": "f9dd779c-2abd-4353-97d4-8d3f7eec7a43",
+    "name": "Billing Statement Controller Endpoints",
+    "commands": [{
+      "id": "1798735a-32f7-4127-97aa-fd15630e4bda",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/swagger-ui.html#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "792f4d88-5d97-4ae9-bbab-6c55e17f8573",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55c486bd-54b7-459e-b667-9db85050de28",
+      "comment": "",
+      "command": "click",
+      "target": "id=operations-tag-billing-statement-controller",
+      "targets": [
+        ["id=operations-tag-billing-statement-controller", "id"],
+        ["css=#operations-tag-billing-statement-controller", "css:finder"],
+        ["xpath=//h4[@id='operations-tag-billing-statement-controller']", "xpath:attributes"],
+        ["xpath=//div[@id='swagger-ui']/section/div[2]/div[2]/div[5]/section/div/span/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "206bf30d-414d-44cd-8fc6-a4b13dec3798",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get",
+      "targets": [
+        ["css=.opblock-summary-get", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81e85e07-0bf4-4fe1-887f-211dc673961d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6db0a9e-20aa-41e2-a82d-02e7526ec740",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79a5fefc-a98c-4238-ae14-f56e9d06c5d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e350f9b-1332-4bc2-b658-de58c65ffc87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a5cdbd3-2dac-4f18-837d-2a4909b4ad68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b7e53f1-571a-42f8-8d40-3be8a8be9660",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58f306fb-e218-4b84-b47b-78dcd4030e88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6ea0555-ae34-471e-abef-449ca9327b38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get",
+      "targets": [
+        ["css=.opblock-summary-get", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bdcd37-5dc7-41ce-92c0-8414e10165e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-post > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-post > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d54aef9-c4d0-492b-ad7e-95f063078b31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "196232a8-6046-4095-97e3-287f166234e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f21876a-be9e-493b-a3e0-092c7f6751f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f139e33-bca2-4c0d-98eb-20fba800f77d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "{\\n  \"extendedPrice\": 15,\\n  \"id\": 0,\\n  \"productName\": \"Taco\",\\n  \"quantity\": 5,\\n  \"restaurantName\": \"TexMex\",\\n  \"unitPrice\": 3\\n}"
+    }, {
+      "id": "5a7a8f56-58bf-4c27-bd47-1fedc2656172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99a44025-3298-4cc5-8668-ba6e8e31bda9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d51e4ea-4373-4d55-a50c-87c5e1f0954c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba2e33fe-c295-4a06-9d2c-c342fe7f12a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "101d357c-cc65-4526-a39a-af3e63529f6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce5a839-b5d6-47a0-8f12-8673cf113aff",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1622a92b-409a-457d-bea0-8cd6f38b5cee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-post > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-post > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-createBillingStatementUsingPOST']/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24d13677-f162-4f8e-ad41-1035c1425f23",
+      "comment": "",
+      "command": "click",
+      "target": "id=operations-tag-billing-statement-controller",
+      "targets": [
+        ["id=operations-tag-billing-statement-controller", "id"],
+        ["css=#operations-tag-billing-statement-controller", "css:finder"],
+        ["xpath=//h4[@id='operations-tag-billing-statement-controller']", "xpath:attributes"],
+        ["xpath=//div[@id='swagger-ui']/section/div[2]/div[2]/div[5]/section/div/span/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc5df1b0-de75-4721-b20e-126d75b16509",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=operations-tag-billing-statement-controller",
+      "targets": [
+        ["id=operations-tag-billing-statement-controller", "id"],
+        ["css=#operations-tag-billing-statement-controller", "css:finder"],
+        ["xpath=//h4[@id='operations-tag-billing-statement-controller']", "xpath:attributes"],
+        ["xpath=//div[@id='swagger-ui']/section/div[2]/div[2]/div[5]/section/div/span/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13372d46-eb8b-48fa-b177-8678b3844948",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-tag-billing-statement-controller .markdown",
+      "targets": [
+        ["css=#operations-tag-billing-statement-controller .markdown", "css:finder"],
+        ["xpath=//h4[@id='operations-tag-billing-statement-controller']/small/div", "xpath:idRelative"],
+        ["xpath=//small/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ccb8729-9d5f-4fa7-a027-e7deb4812650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-get > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc4963c-f9fc-437b-b8cb-8f920f21df91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1870a79-3345-4384-ba61-1925c9ce948c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dda8c5bf-018e-4d18-9002-3ff6a3192a36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b414119f-5d78-467f-893a-6135d87e74fb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9c2ef2-ef5e-4bb2-b723-62e8c42bdce7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f6cb846-a178-4bde-ac5e-79d23154ddf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get",
+      "targets": [
+        ["css=.opblock-summary-get", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b3c0955-ddc5-4217-a60c-1229ca393ca9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-delete > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-delete > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div/div", "xpath:idRelative"],
+        ["xpath=//span[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0acb4e9-dd30-417b-88b6-651b8d633bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbca93f6-6cc5-487a-b5f3-b92708359649",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e11cb45-2b2a-498e-8313-3ac08b655ea4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "688179b5-e6f7-4bc5-8a09-e9a12262131f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.parameters > .parameters-col_description",
+      "targets": [
+        ["css=.parameters > .parameters-col_description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div[2]/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e96f53-58dc-4588-80ac-8e96d0d4b0a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e59b1fa6-744d-4251-b976-6f18d58480ff",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='6']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "87e427f0-d71e-46e4-a2e4-24feeaa1a5b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7430a518-81cf-45d3-bef4-03b2aaa7441e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c1e1fb-372e-4838-893e-1f8cd8a267f7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ac3064-f35f-43ab-a8d4-3e9288b69a8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "531d8177-c50c-431d-848e-9b1e18af5da8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-delete",
+      "targets": [
+        ["css=.opblock-summary-delete", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-deleteBillingStatementByIdUsingDELETE']/div", "xpath:idRelative"],
+        ["xpath=//span[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c49eea-0001-4518-a241-370a07e3b61a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get",
+      "targets": [
+        ["css=.opblock-summary-get", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4910e147-9351-4bc9-9099-d515ed71620a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c5dbc8-9516-48b9-b375-1e082a4cbb53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e24d1cd-0d07-462b-9957-508f8d1469ca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bad07d6-f494-4c62-9194-a4e97b0671fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec63c8ff-0c49-4cb3-ab68-546d0305527b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "664ce659-f36a-4db1-8ba6-b42dccdf6ae5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d615e702-83b5-47bd-854e-db35f0e7e6f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1068e582-456a-4fdc-b2db-28803fee68e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-get > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d05f21a-6991-4238-9db7-c8b5198be40e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-put",
+      "targets": [
+        ["css=.opblock-summary-put", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div", "xpath:idRelative"],
+        ["xpath=//span[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93989bb9-3691-430e-b814-91b72f7df28c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87523d00-1c97-454b-bc20-00176b98b505",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fde3948-0e70-4653-a0ca-09ba1cd4f05f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "{\\n  \"extendedPrice\": 10,\\n  \"id\": 0,\\n  \"productName\": \"Garlic knots\",\\n  \"quantity\": 2,\\n  \"restaurantName\": \"Pizzarama\",\\n  \"unitPrice\": 5\\n}"
+    }, {
+      "id": "05618bb6-bde1-4643-ada0-82de6f0b686e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c23f60f-8765-4e85-bd60-e419791abdf9",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='3']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "c818937b-e1a4-4706-b457-a3939469cdfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a0d4dc-a1af-4626-9eb5-d40dd8575ecf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19c1ec9-24f2-4f9e-a8ed-262fe27182b5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1db0d360-40c8-458d-9be4-d0023fccaaf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ea67e24-3863-4aad-96ec-e74dda61ce6d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29eca172-959f-4c7e-8407-bdeb3ef40214",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ff9b1d-b77c-45aa-b406-a3d1581c0175",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-put > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-put > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-editBillingStatementByIdUsingPUT']/div/div", "xpath:idRelative"],
+        ["xpath=//span[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804a2571-13b7-4ffd-a923-0394e9f916c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-get > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea736973-fcea-49ca-a481-1d90f562997a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2be7900-511f-4c2c-8d35-2be41aa7cb8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b98dede3-995c-402b-b8b1-b64211ab4159",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae6ce2f4-ad83-4ac2-9843-70b6f971b2f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a6b2837-939c-46f9-a44a-1228008c2e56",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "482faeb2-2701-41d2-8059-184cafa71b8e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a55f4432-4bda-4ce4-9068-cef5ab74a5f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b148db6-5a44-4338-8c5a-8270360ad318",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get",
+      "targets": [
+        ["css=.opblock-summary-get", "css:finder"],
+        ["xpath=//div[@id='operations-billing-statement-controller-getAllBillingStatementsUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b26a09d5-24b5-461d-9ca0-ee8dd373cc7a",
+    "name": "Customer Controller Endpoints",
+    "commands": [{
+      "id": "b7b11b57-7bd4-4436-bbcf-bdbcaddd0947",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/swagger-ui.html#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "481fb74e-30bc-4a2d-a701-9ce92be37c8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead0cc39-4d30-4290-a5af-03b729823e4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-tag-customer-controller .arrow",
+      "targets": [
+        ["css=#operations-tag-customer-controller .arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f890722-c892-4622-950d-8a762b7a04d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#operations-tag-customer-controller .arrow",
+      "targets": [
+        ["css=#operations-tag-customer-controller .arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba517291-907f-4b29-b7b5-644d491857a9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#operations-tag-customer-controller .arrow",
+      "targets": [
+        ["css=#operations-tag-customer-controller .arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff6d0a11-b150-4271-84eb-6c8b6b01ec2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-post > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-post > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc07bca-1cec-406f-91fe-1a19cb60486d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "042b9618-be85-4b24-a092-9010427db402",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffd185b4-09fd-4e41-97e7-2751c0f0647e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "{\\n  \"email\": \"edgrr@email.com\",\\n  \"firstName\": \"Edgar\",\\n  \"id\": 0,\\n  \"lastName\": \"The Cat\",\\n  \"password\": \"givemetuna\",\\n  \"userName\": \"edgrrrr\"\\n}"
+    }, {
+      "id": "a364358f-3f5f-445b-b80b-a8e77eb4739b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f72d6503-0fea-4958-a155-e5769a868e39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42fdf9fb-7757-44da-b8d0-b7681a00218d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d660fa0-95bf-4d9f-8a8f-2159de40c6fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9068148a-85b9-4d41-aa59-70e942b64ce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-post",
+      "targets": [
+        ["css=.opblock-summary-post", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-createCustomerUsingPOST']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a75b95-870e-4dca-bda5-c8fff6155c45",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c6523a2-8fa5-4f52-847c-f4cc78edfd30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bbac6b-b238-47b5-9cd2-247940b29188",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5988ac12-76d1-4d30-aa86-3893bb58cdb5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72038c3d-116c-4ce0-b958-0be1ff995578",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c51dbe1d-13b7-4864-88be-c156a2b8bc45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f96db66a-ceea-4340-9448-d850535760a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3b9c82-7dd4-403d-9428-5ad5d137a957",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-delete > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-delete > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div/div", "xpath:idRelative"],
+        ["xpath=//span[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19adbdda-84a7-425a-a8df-592ac1f01d31",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET > .opblock-summary",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET > .opblock-summary", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d005f79-c35e-48ba-aad1-ccd6b259c290",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET .btn",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET .btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59fdad78-f1a2-4ec0-9ada-d61261810efe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET .opblock-title",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET .opblock-title", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div/h4", "xpath:idRelative"],
+        ["xpath=//div/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Parameters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e656f3-fc61-4124-8e37-26511611cab2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cancel",
+      "targets": [
+        ["css=.cancel", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30535bad-eaf1-4ce5-8be0-cc65db792f01",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a27baf2-db2b-4d39-bb12-39fe7a3f05b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b67762ef-d1da-4b13-9970-1605352dcfa8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5833a8ea-d23b-4b2b-bd8b-2c24717287bf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "301c436d-0e0e-4a00-b1a8-07837addda4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2db4f11-bec2-4fd5-a3e4-af719a12f1c4",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='2']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "79be58d6-6d81-4efd-a296-4c5e40a4e68d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b0ec091-4711-423a-8661-649029cc290d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07cf3a88-f87f-4db6-a498-4961b62d1d7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-delete",
+      "targets": [
+        ["css=.opblock-summary-delete", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-deleteBillingStatementByIdUsingDELETE_1']/div", "xpath:idRelative"],
+        ["xpath=//span[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7bbbcc-9326-4c56-a394-2ad9def7b230",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-put",
+      "targets": [
+        ["css=.opblock-summary-put", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div", "xpath:idRelative"],
+        ["xpath=//span[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dac53818-7c31-483d-963b-6ae3c0114bf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f98b6ba-8c33-437f-9826-0f1dd6ded843",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab184b87-8302-47da-b9c2-bdc15a08f040",
+      "comment": "",
+      "command": "type",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "{\\n  \"email\": \"jess@email.com\",\\n  \"firstName\": \"Jessica\",\\n  \"id\": 0,\\n  \"lastName\": \"Horn\",\\n  \"password\": \"password\",\\n  \"userName\": \"jessh\"\\n}"
+    }, {
+      "id": "757e1992-8c73-4538-90d9-d88faae3b59e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92086ad8-d1e4-4eb6-b6cf-a1ee941611c6",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "e1991889-7d35-4927-8f81-444b58c6c4df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "971ba2b2-868f-47cd-bbb2-66eb8bb69340",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1d5891f-c681-4c0b-94e0-eb32fc258fe2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79d00223-e3c0-4866-981d-d73b759ab04b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffa4d834-9e0e-48b0-a180-fcb706c9bd32",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e6e9941-ffd2-4087-b21d-12a9f8ea91a6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "546d1e83-0420-46e8-9f00-9109e11be657",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-section > .opblock-section-header",
+      "targets": [
+        ["css=.opblock-section > .opblock-section-header", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "541e8d06-0334-4583-ac6f-6b69ffe85f5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-put > .opblock-summary-description",
+      "targets": [
+        ["css=.opblock-summary-put > .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-editCustomerByIdUsingPUT']/div/div", "xpath:idRelative"],
+        ["xpath=//span[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea72ebe6-28e0-499d-aa03-c8a0a72601b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET .opblock-summary-description", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c59c840-98ee-4e60-bec1-b47410c505a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac18ddb-7b0f-4512-a92e-3660d7b758f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1bb7aef-b32d-4e86-bbf8-5f769030801d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1962f29-2c10-4246-973c-0b1623cd5359",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28874cc9-7fb1-4087-8862-96fe103ee26c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade591d4-37f0-4788-9bf7-5c8726daf34b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02ba3ce-adc8-4eb3-a98a-38d7e547e25b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3179ad4-c33c-4cc6-a733-1052a9edede3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#operations-customer-controller-getAllCustomersUsingGET > .opblock-summary",
+      "targets": [
+        ["css=#operations-customer-controller-getAllCustomersUsingGET > .opblock-summary", "css:finder"],
+        ["xpath=//div[@id='operations-customer-controller-getAllCustomersUsingGET']/div", "xpath:idRelative"],
+        ["xpath=//div/div/span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b5af6f-bc4e-428d-91b4-fe9f89af4a06",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "02e2c67d-e0b9-474f-96d1-a8cedc25fdd3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8100/", "http://localhost:8100/swagger-ui.html#/"],
+  "plugins": []
+}
